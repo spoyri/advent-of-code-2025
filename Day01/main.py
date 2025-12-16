@@ -1,4 +1,4 @@
-file = open("input.txt")
+file = open("Day01/input.txt")
 
 list = file.read().split("\n")[:-1]
 list = [(inst[0], int(inst[1:])) for inst in list]
