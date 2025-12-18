@@ -1,4 +1,4 @@
-file = open("input.txt")
+file = open("Day02/input.txt")
 
 list = file.read().split("\n")
 list = list[0].split(",")
